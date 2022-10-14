@@ -33,7 +33,7 @@ struct MappView: View {
                 MapView()
                     
             }
-            .navigationTitle("Map")
+            .navigationTitle("Mapa de Torres")
         }
     }
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		923D4B0D28F97EA0008DA630 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 923D4B0C28F97E9F008DA630 /* MapKit.framework */; };
 		928CB1BC28F8406B00DC713E /* AppTowerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928CB1BB28F8406B00DC713E /* AppTowerApp.swift */; };
 		928CB1BE28F8406B00DC713E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928CB1BD28F8406B00DC713E /* ContentView.swift */; };
 		928CB1C028F8406D00DC713E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 928CB1BF28F8406D00DC713E /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		923D4B0C28F97E9F008DA630 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		928CB1B828F8406B00DC713E /* AppTower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppTower.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		928CB1BB28F8406B00DC713E /* AppTowerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTowerApp.swift; sourceTree = "<group>"; };
 		928CB1BD28F8406B00DC713E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -30,17 +32,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				923D4B0D28F97EA0008DA630 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		923D4B0B28F97E9F008DA630 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				923D4B0C28F97E9F008DA630 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		928CB1AF28F8406A00DC713E = {
 			isa = PBXGroup;
 			children = (
 				928CB1BA28F8406B00DC713E /* AppTower */,
 				928CB1B928F8406B00DC713E /* Products */,
+				923D4B0B28F97E9F008DA630 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
